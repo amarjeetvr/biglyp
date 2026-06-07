@@ -1,0 +1,11 @@
+name = "biglyp-worker"
+main = "src/index.ts"
+compatibility_date = "2026-06-07"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "biglyp_db"
+database_id = "923eca01-269b-4f7a-ab50-53b81fc29822"
+
+[vars]
+API_URL = "http://localhost:8787"
